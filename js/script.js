@@ -12,5 +12,6 @@ fetch("https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=dc6zaTOxFJmzC
       var img = document.createElement('img');
       img.src = data[i].images.original.url;
       document.body.appendChild(img);
+      console.log('foo');
     }
   }
